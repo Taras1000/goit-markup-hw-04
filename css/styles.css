@@ -223,6 +223,16 @@ background-color: var(--second-background-color);
     position: absolute;
 }
 
+.features-item-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--first-background-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
