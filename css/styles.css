@@ -156,7 +156,7 @@ color: var(--hover-color);
 /* Hero */
 
 .hero{
-background-color: var(--second-background-color);
+    background-color: var(--second-background-color);
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office1.jpg);
@@ -164,7 +164,8 @@ background-color: var(--second-background-color);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-title{
@@ -419,11 +420,16 @@ background-color: var(--second-background-color);
     fill: currentColor;
 }
 
-.customers-link:hover,
-.customers-link:focus {
+.customers-link:hover {
     border-color: var(--hover-color);
     color: var(--hover-color);
 }
+
+.customers-link:focus {
+border-color: var(--hover-color);
+    color: var(--hover-color);
+}
+
 
 /* Footer */
 
